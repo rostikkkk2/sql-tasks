@@ -13,6 +13,9 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
+  gem 'factory_bot_rails', '~> 6.1.0'
+  gem 'ffaker', '~> 2.15'
+  gem 'rspec-rails', '~> 4.0'
   gem 'pry-rails'
 end
 
